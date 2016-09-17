@@ -10,7 +10,7 @@ Download or Clone Python scripts from this repo and copy files to Linux or OSX s
 Configure GPIO pin setup by modifying the pinmap_modelb.conf file to suit your needs.
 
 # Usage
-Launch with: python simulated.py. As the name suggests, the python script has a little simulator that pulls and drops input states. 
+Launch with: python simulated.py. As the name suggests, the python script has a little simulator that pulls and drops input states. Once the script is running, it will start a logger which will enable you to monitor states of pin, when clients connects and when services start.
 
 #Copyright
 Copyright 2016 Headstation. (http://headstation.com) All rights reserved. It is free software and may be redistributed under the terms specified in the LICENSE file (Apache License 2.0). 
