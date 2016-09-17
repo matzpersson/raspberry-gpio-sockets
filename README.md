@@ -12,5 +12,9 @@ Configure GPIO pin setup by modifying the pinmap_modelb.conf file to suit your n
 # Usage
 Launch with: python simulated.py. As the name suggests, the python script has a little simulator that pulls and drops input states. Once the script is running, it will start a logger which will enable you to monitor states of pin, when clients connects and when services start.
 
+Launch client app in Xcode https://github.com/matzpersson/raspberry-swift-gpio-remote.git.
+
+Alternatively, build your own client script to control the Raspberry over the Python sockets.
+
 #Copyright
 Copyright 2016 Headstation. (http://headstation.com) All rights reserved. It is free software and may be redistributed under the terms specified in the LICENSE file (Apache License 2.0). 
